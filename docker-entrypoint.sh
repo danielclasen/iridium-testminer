@@ -2,4 +2,4 @@
 
 wallet_address=`cat /data/wallet.adr`
 
-iridium/iridium_miner "--address $wallet_address $@"
+iridium/iridium_miner --address "$wallet_address" "$@"
